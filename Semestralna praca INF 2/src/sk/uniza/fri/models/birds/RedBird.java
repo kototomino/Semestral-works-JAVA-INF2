@@ -23,9 +23,9 @@ public class RedBird extends Bird implements IJumpAnimations {
 
         this.redJump = new Animations(85);
 
-        this.redJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\redbird-downflap.png"));
-        this.redJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\redbird-midflap.png"));
-        this.redJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\redbird-upflap.png"));
+        this.redJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\redbird-downflap.png"));
+        this.redJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\redbird-midflap.png"));
+        this.redJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\redbird-upflap.png"));
     }
     /**
      @return

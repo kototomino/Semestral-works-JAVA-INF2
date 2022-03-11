@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         new Menu();
 
-        String filepath = "Semestralna praca INF 2\\src\\sk\\uniza\\fri\\music\\music.wav";
+        String filepath = "src\\sk\\uniza\\fri\\music\\music.wav";
         Music music = new Music();
         music.playMusic(filepath);
 

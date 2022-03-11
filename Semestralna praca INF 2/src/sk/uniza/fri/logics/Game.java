@@ -248,7 +248,7 @@ public class Game extends JPanel implements ActionListener, KeyListener  {
 
             if (this.gameOver) {
                 this.comms.endComment(this.getGraphics());
-                ImageIcon icon = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\yellowbird-midflap.png");
+                ImageIcon icon = new ImageIcon("src\\sk\\uniza\\fri\\images\\yellowbird-midflap.png");
                 int choice = JOptionPane.showConfirmDialog(null, " YOUR SCORE WAS " + this.score + "\n RESTART ?",  "CHOOSE AN OPTION !", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, icon);
                 if (choice == 0) {
                     this.timer.restart();

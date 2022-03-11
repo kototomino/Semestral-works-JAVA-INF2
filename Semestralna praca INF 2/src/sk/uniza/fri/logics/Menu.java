@@ -36,7 +36,7 @@ public class Menu {
 
     public Menu() {
         JFrame start = new JFrame("Welcome to the Game !!!");
-        ImageIcon startImage = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\start.jpg");
+        ImageIcon startImage = new ImageIcon("src\\sk\\uniza\\fri\\images\\start.jpg");
         JLabel startLabel = new JLabel(startImage);
         start.setBounds(400, 100, 728, 450);
         start.setResizable(false);
@@ -49,10 +49,10 @@ public class Menu {
         Frame menu = new Frame("menu");
 
 
-        ImageIcon iconEasy = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\easy.png");
-        ImageIcon iconMedium = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\medium.png");
-        ImageIcon iconHard = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\hard.png");
-        ImageIcon iconCredits = new ImageIcon("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\info.png");
+        ImageIcon iconEasy = new ImageIcon("src\\sk\\uniza\\fri\\images\\easy.png");
+        ImageIcon iconMedium = new ImageIcon("src\\sk\\uniza\\fri\\images\\medium.png");
+        ImageIcon iconHard = new ImageIcon("src\\sk\\uniza\\fri\\images\\hard.png");
+        ImageIcon iconCredits = new ImageIcon("src\\sk\\uniza\\fri\\images\\info.png");
 
         JButton buttonEasy = new JButton("EASY", iconEasy);
         buttonEasy.setHorizontalTextPosition(SwingConstants.CENTER);

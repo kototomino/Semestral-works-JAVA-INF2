@@ -22,9 +22,9 @@ public class YellowBird extends Bird implements IJumpAnimations {
 
         this.yellowJump = new Animations(85);
 
-        this.yellowJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\yellowbird-downflap.png"));
-        this.yellowJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\yellowbird-midflap.png"));
-        this.yellowJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\yellowbird-upflap.png"));
+        this.yellowJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\yellowbird-downflap.png"));
+        this.yellowJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\yellowbird-midflap.png"));
+        this.yellowJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\yellowbird-upflap.png"));
     }
     /**
      @return

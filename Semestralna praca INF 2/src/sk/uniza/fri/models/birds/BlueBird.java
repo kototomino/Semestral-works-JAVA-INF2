@@ -23,9 +23,9 @@ public class BlueBird extends Bird implements IJumpAnimations {
 
         this.blueJump = new Animations(85);
 
-        this.blueJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\bluebird-downflap.png"));
-        this.blueJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\bluebird-midflap.png"));
-        this.blueJump.addImage(Buffer.getImage("Semestralna praca INF 2\\src\\sk\\uniza\\fri\\images\\bluebird-upflap.png"));
+        this.blueJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\bluebird-downflap.png"));
+        this.blueJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\bluebird-midflap.png"));
+        this.blueJump.addImage(Buffer.getImage("src\\sk\\uniza\\fri\\images\\bluebird-upflap.png"));
     }
     /**
      @return
